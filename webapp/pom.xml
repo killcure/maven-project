@@ -14,9 +14,11 @@
   <packaging>war</packaging>
   <name>Webapp</name>
   <description>Webapp.</description>
-
+  <properties>
+           <my.warName>warname</my.warName>
+  </properties>	
   <build>
-    <finalName>${project.artifactId}</finalName>
+    <finalName>${my.warName}</finalName>
 
     <plugins>
       <plugin>
