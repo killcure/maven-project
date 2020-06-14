@@ -18,7 +18,7 @@
            <my.warName>warname</my.warName>
   </properties>	
   <build>
-    <finalName>${my.warName}</finalName>
+    <finalName>${artifactId}-${my.warName}</finalName>
 
     <plugins>
       <plugin>
